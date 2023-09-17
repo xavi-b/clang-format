@@ -11,8 +11,9 @@ BinPackArguments: false
 BinPackParameters: false
 BreakBeforeBinaryOperators: NonAssignment
 ColumnLimit: 120
+IncludeBlocks: Regroup
 Language: Cpp
 NamespaceIndentation: None
 PointerBindsToType: true
 QualifierAlignment: Right
-SortIncludes: false
+SortIncludes: true
