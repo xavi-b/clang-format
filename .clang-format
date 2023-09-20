@@ -12,9 +12,11 @@ BinPackArguments: false
 BinPackParameters: false
 BreakBeforeBinaryOperators: NonAssignment
 ColumnLimit: 120
+EmptyLineBeforeAccessModifier: Always
 IncludeBlocks: Regroup
 Language: Cpp
 NamespaceIndentation: None
 PointerBindsToType: true
 QualifierAlignment: Right
+SeparateDefinitionBlocks: Always
 SortIncludes: true
