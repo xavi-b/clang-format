@@ -11,6 +11,7 @@ BasedOnStyle: microsoft
 BinPackArguments: false
 BinPackParameters: false
 BreakBeforeBinaryOperators: NonAssignment
+BreakBeforeTernaryOperators: true
 ColumnLimit: 120
 EmptyLineBeforeAccessModifier: Always
 IncludeBlocks: Regroup
@@ -18,5 +19,6 @@ Language: Cpp
 NamespaceIndentation: None
 PointerBindsToType: true
 QualifierAlignment: Right
+ReflowComments: true
 SeparateDefinitionBlocks: Always
 SortIncludes: true
