@@ -6,6 +6,7 @@ AlignConsecutiveDeclarations: true
 AlignOperands: AlignAfterOperator
 AllowAllArgumentsOnNextLine: false
 AllowAllParametersOfDeclarationOnNextLine: false
+AllowShortFunctionsOnASingleLine: Inline
 AllowShortLambdasOnASingleLine: None
 AlwaysBreakTemplateDeclarations: Yes
 BasedOnStyle: microsoft
@@ -13,11 +14,14 @@ BinPackArguments: false
 BinPackParameters: false
 BreakBeforeBinaryOperators: NonAssignment
 BreakBeforeTernaryOperators: true
+BreakConstructorInitializers: BeforeComma
 ColumnLimit: 120
+ConstructorInitializerIndentWidth: 2
 EmptyLineBeforeAccessModifier: Always
 IncludeBlocks: Regroup
 Language: Cpp
 NamespaceIndentation: None
+PackConstructorInitializers: Never
 PointerBindsToType: true
 QualifierAlignment: Right
 ReflowComments: true
